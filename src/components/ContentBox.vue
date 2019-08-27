@@ -1,7 +1,10 @@
 <template>
   <section>
     <h1>Contentbox</h1>
-    <!-- <g-image v-if="contentbox.bild[0].url" :src="contentbox.bild[0].url" /> -->
+    <g-image
+      v-if="contentbox.bild[0].url"
+      :src="'https://medinbackend.daniellerch.ch' + contentbox.bild[0].url"
+    />
     <h2>{{contentbox.titel}}</h2>
     <article v-if="contentbox.kurztext" v-html="contentbox.kurztext.content"></article>
     <p>

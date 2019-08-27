@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1>hero</h1>
-    <g-image :src="hero.bild[0].url" />
+    <g-image :src="'https://medinbackend.daniellerch.ch' + hero.bild[0].url" />
     <article class="lead" v-html="hero.lead"></article>
   </section>
 </template>
