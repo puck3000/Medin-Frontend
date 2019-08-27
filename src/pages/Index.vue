@@ -68,7 +68,7 @@ query fetchHome {
             content
           }
           internerLink {
-            url
+            slug
           }
           externerLink
         }

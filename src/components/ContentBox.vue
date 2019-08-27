@@ -15,8 +15,8 @@
       >{{contentbox.externerLink}}</a>
       <a
         v-else-if="contentbox.internerLink"
-        :href="contentbox.internerLink[0].url"
-      >{{contentbox.internerLink[0].url}}</a>
+        :href="contentbox.internerLink[0].slug"
+      >{{contentbox.internerLink[0].slug}}</a>
     </p>
   </section>
 </template>
